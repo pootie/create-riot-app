@@ -1,6 +1,7 @@
-# ⏏ create-riot-app
+# create-riot-app
 [RiotJS](https://github.com/riot/riot) startkit, based on [create-react-app](https://github.com/facebookincubator/create-react-app) and  [react-scripts](https://github.com/facebookincubator/create-react-app/tree/master/packages/react-scripts).
-Adapted from [create-riot-app-ejected](https://github.com/alexstep/create-riot-app-ejected) and stripped down to one todo.tag.
+
+☺ Adapted from [create-riot-app-ejected](https://github.com/alexstep/create-riot-app-ejected) (much thanks!) and stripped down to one todo.tag.
 
 Package included simple app example, webpack dev server with **riot hot reload** and less, sass, stylus support. ES6 features available too. Jest with riot support for testing. ES6 and eslint in riot tag.
 
@@ -21,7 +22,7 @@ Just read https://github.com/facebookincubator/create-react-app/blob/master/pack
 
 ## ⚡ Start dev-server
 ```
-git clone https://github.com/alexstep/create-riot-app-ejected my-riot-app
+git clone https://github.com/pootie/create-riot-app my-riot-app
 cd my-riot-app
 ```
 ```
@@ -33,7 +34,6 @@ go to http://localhost:3000
 
 ## ✔ Testing and linting
 Package included Jest, for testing riot tags.
-See [riot tag test example](https://github.com/alexstep/create-riot-app-ejected/blob/master/src/view/components/screens/groups.test.js)
 ```
 npm test
 npm test -- --coverage
